@@ -3,6 +3,7 @@
 ## KEGG
 
 '''
+
 library(tidyverse)
 library(clusterProfiler)
 
@@ -12,6 +13,7 @@ entrez_col <- "ENTREZID"
 
 Define contrasts from RNA-seq data
 '''
+
 contrast_map <- list(
 
   "GLDS-606" = list(
