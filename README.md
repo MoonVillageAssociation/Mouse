@@ -2,6 +2,7 @@
 
 ## KEGG
 
+Setup
 ```
 library(tidyverse)
 library(clusterProfiler)
@@ -45,5 +46,73 @@ contrast_map <- list(
 )
 ```
 
-...
+Function to run KEGG GSEA
+```
+run_kegg_gsea <- function(df, stat_col, flip = FALSE) {
+
+  ranks <- df %>%
+    filter(!is.na(.data[[stat_col]]),
+           !is.na(.data[[entrez_col]])) %>%
+    distinct(.data[[entrez_col]], .keep_all = TRUE) %>%
+    mutate(stat_use = if (flip) - .data[[stat_col]] else .data[[stat_col]]) %>%
+    select(!!entrez_col, stat_use) %>%
+    deframe() %>%
+    sort(decreasing = TRUE)
+
+  gseKEGG(
+    geneList     = ranks,
+    organism     = organism_kegg,
+    pvalueCutoff = 0.05,
+    verbose      = FALSE
+  )
+}
+```
+
+Loop
+```
+for (glds in names(contrast_map)) {
+
+  csv_file <- paste0(
+    glds,
+    "_rna_seq_differential_expression_GLbulkRNAseq.csv"
+  )
+
+  message("Processing ", glds)
+
+  df <- read_csv(csv_file, show_col_types = FALSE)
+
+  for (contrast in contrast_map[[glds]]) {
+
+    message("  Contrast: ", contrast$label)
+
+    if (!contrast$stat_col %in% colnames(df)) {
+      warning("    Stat column not found: ", contrast$stat_col)
+      next
+    }
+
+    gsea <- run_kegg_gsea(
+      df       = df,
+      stat_col = contrast$stat_col,
+      flip     = contrast$flip
+    )
+
+    if (is.null(gsea) || nrow(gsea@result) == 0) {
+      warning("    No significant KEGG pathways")
+      next
+    }
+
+    res <- as.data.frame(gsea@result)
+    res$GLDS     <- glds
+    res$Contrast <- contrast$label
+    res$StatUsed <- contrast$stat_col
+
+    out_file <- paste0(
+      glds, "_", contrast$label, "_KEGG_GSEA.csv"
+    )
+
+    write_csv(res, out_file)
+    message("    Saved: ", out_file)
+  }
+}
+```
 
