@@ -2,15 +2,6 @@
 
 ## KEGG
 
-Setup
-```
-library(tidyverse)
-library(clusterProfiler)
-
-organism_kegg <- "mmu"
-entrez_col <- "ENTREZID"
-```
-
 Create contrast_map.csv to define data and contrasts
 ```
 ID,GLDS,stat_col,flip,label
@@ -20,10 +11,11 @@ ID,GLDS,stat_col,flip,label
 4,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,SF29w_ISS_vs_GC29w_Earth
 ```
 
-Specify data set to analyze
+Specify data to analyze from contrast_map.csv
 ```
-TARGET_ID <- "GLDS-674"
+TARGET_ID <- 4
 ```
+
 Setup
 ```
 library(tidyverse)
@@ -31,11 +23,6 @@ library(clusterProfiler)
 
 organism_kegg <- "mmu"
 entrez_col <- "ENTREZID"
-```
-
-Specify data to run
-```
-TARGET_ID <- 4
 ```
 
 Read contrast table
