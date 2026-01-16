@@ -100,5 +100,85 @@ if (!is.null(gsea) && nrow(gsea@result) > 0) {
 }
 ```
 
-## KEGG
+## KEGG Gene Lists 
+Expands significant KEGG pathways to full KEGG gene lists and filtered to expressed genes only
+
+Setup
+'''
+library(tidyverse)
+library(KEGGREST)
+'''
+
+Specify data to analyze from contrast_map.csv
+```
+TARGET_ID <- 4
+```
+
+Read contrast table
+```
+contrast_table <- "contrast_map.csv"
+
+contrast <- read_csv(contrast_table, show_col_types = FALSE) %>%
+  filter(ID == TARGET_ID)
+
+stopifnot(nrow(contrast) == 1)
+
+glds  <- contrast$GLDS
+label <- contrast$label
+
+kegg_file <- paste0(
+  glds, "_", label, "_KEGG_GSEA.csv"
+)
+
+background_file <- paste0(
+  glds, "_rna_seq_differential_expression_GLbulkRNAseq.csv"
+)
+
+message("Processing ", glds, " (", label, ")")
+```
+
+Load data
+```
+gsea <- read_csv(kegg_file, show_col_types = FALSE)
+
+bg_genes <- read_csv(background_file, show_col_types = FALSE) %>%
+  filter(!is.na(ENTREZID)) %>%
+  pull(ENTREZID) %>%
+  unique()
+```
+
+Fetch KEGG gene sets
+```
+kegg_full <- map_dfr(gsea$ID, function(pid) {
+
+  kg <- tryCatch(keggGet(pid), error = function(e) NULL)
+  if (is.null(kg)) return(NULL)
+
+  genes <- kg[[1]]$GENE
+  if (is.null(genes) || length(genes) < 2) return(NULL)
+
+  entrez <- genes[seq(1, length(genes), by = 2)]
+
+  tibble(
+    ID = pid,
+    ENTREZID = entrez
+  )
+}) %>%
+  filter(ENTREZID %in% bg_genes) %>%
+  distinct()
+
+out_file <- paste0(
+  glds, "_", label, "_KEGG_FULL_PATHWAY_GENES_EXPRESSED.csv"
+)
+
+write_csv(kegg_full, out_file)
+message("Saved: ", out_file)
+```
+
+
+## Enrichment of metal-interacting genes in KEGG pathways
+Monte-Carlo enrichment of CTD metal gene sets in KEGG pathways compared to a random background
 ...
+
+
+## 
