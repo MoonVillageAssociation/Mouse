@@ -315,9 +315,177 @@ message("Saved: ", out_file)
 
 ## Filtering
 Select pathways of interest from *_KEGG_Pathway_Metal_MC_SIGNIFICANT.csv
-
-## Percent overlapping element-interacting genes in KEGG pathway
-in progress
+Generate custom lists with *_selected_kegg_pathways.txt
 
 ## Plot
-in progress
+
+Setup
+```
+library(tidyverse)
+library(cowplot)
+```
+
+Specify data to analyze from contrast_map.csv
+```
+TARGET_ID <- 4
+```
+
+Read contrast table
+```
+contrast_table <- "contrast_map.csv"
+
+contrast <- read_csv(contrast_table, show_col_types = FALSE) %>%
+  filter(ID == TARGET_ID)
+
+stopifnot(nrow(contrast) == 1)
+
+glds_id <- contrast$GLDS
+label   <- contrast$label
+
+message("Processing ", glds_id, " (", label, ")")
+```
+
+Input
+```
+# KEGG GSEA results
+kegg_csv <- paste0(
+  glds_id, "_", label, "_KEGG_GSEA.csv"
+)
+
+# Metal enrichment results
+metal_csv <- paste0(
+  glds_id, "_", label, "_KEGG_Pathway_Metal_MC_SIGNIFICANT.csv"
+)
+
+# Hand-selected KEGG pathways (YOU curate this)
+pathway_txt <- paste0(
+  glds_id, "_", label, "_selected_kegg_pathways.txt"
+)
+
+# Output plot
+out_file <- paste0(
+  glds_id, "_NES_plus_MetalHeatmap.png"
+)
+```
+Load data
+```
+kegg  <- read_csv(kegg_csv, show_col_types = FALSE)
+metal <- read_csv(metal_csv, show_col_types = FALSE)
+
+pathways_of_interest <- read_lines(pathway_txt) %>%
+  str_trim() %>%
+  discard(~ .x == "")
+
+stopifnot(length(pathways_of_interest) > 0)
+```
+
+Prep NES data
+```nes_df <- kegg %>%
+  filter(ID %in% pathways_of_interest) %>%
+  mutate(
+    Pathway = str_remove(
+      Description,
+      " - Mus musculus \\(house mouse\\)"
+    )
+  ) %>%
+  arrange(NES)
+
+# Enforce shared ordering between plots
+pathway_levels <- nes_df$Pathway
+```
+Prep element data
+```
+metal_df <- metal %>%
+  left_join(
+    kegg %>% select(ID, Description),
+    by = "ID"
+  ) %>%
+  filter(ID %in% pathways_of_interest) %>%
+  mutate(
+    Pathway = str_remove(
+      Description.y,
+      " - Mus musculus \\(house mouse\\)"
+    ),
+    Metal = factor(Metal, levels = c("Al", "Cu", "Fe", "Ti")),
+    padj_plot = pmax(padj, 1e-300)
+  ) %>%
+  mutate(
+    Pathway = factor(Pathway, levels = pathway_levels)
+  )
+```
+
+NES barplot
+```
+fixed_margin <- margin(5, 5, 5, 5)
+
+p_nes <- ggplot(
+  nes_df,
+  aes(x = NES, y = factor(Pathway, levels = pathway_levels))
+) +
+  geom_col(fill = "darkred") +
+  labs(
+    x = "NES",
+    y = NULL,
+    title = expression("Colon " * italic("(OSD-667)"))
+  ) +
+  theme_minimal(base_size = 7) +
+  theme(
+    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.3),
+    axis.text.y  = element_text(size = 7),
+    plot.margin  = fixed_margin,
+    text         = element_text(size = 7, color = "black")
+  )
+```
+
+Element heatmap
+```
+p_metal <- ggplot(
+  metal_df,
+  aes(x = Metal, y = Pathway, fill = -log10(padj_plot))
+) +
+  geom_tile() +
+  scale_fill_gradient(
+    low = "#A7C7E7",
+    high = "#003366",
+    na.value = "transparent",
+    name = expression(-log[10]~FDR)
+  ) +
+  labs(x = NULL, y = NULL) +
+  theme_minimal(base_size = 7) +
+  theme(
+    plot.margin      = fixed_margin,
+    panel.background = element_blank(),
+    panel.grid       = element_blank(),
+    panel.border     = element_rect(color = "black", fill = NA, linewidth = 0.3),
+    axis.text.y      = element_blank(),
+    axis.ticks.y     = element_blank(),
+    legend.key.width  = unit(3, "mm"),
+    legend.key.height = unit(4, "mm"),
+    text             = element_text(size = 7, color = "black")
+  )
+```
+
+Combine & save
+```
+p <- plot_grid(
+  p_nes + theme(plot.margin = margin(5, 1, 5, 25)),
+  p_metal + theme(plot.margin = margin(5, 5, 5, 1)),
+  nrow = 1,
+  align = "h",
+  axis = "tb",
+  rel_widths = c(5.3, 2)
+)
+
+p <- ggdraw(p)
+
+ggsave(
+  out_file,
+  p,
+  width  = 5,
+  height = 1.1,
+  dpi    = 600,
+  bg     = "transparent"
+)
+
+message("Saved: ", out_file)
+```
