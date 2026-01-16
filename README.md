@@ -1,4 +1,4 @@
-# MouseAnalysis
+# Mouse
 
 Create contrast_map.csv to define data and contrasts
 ```
