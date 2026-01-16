@@ -314,7 +314,7 @@ message("Saved: ", out_file)
 ```
 
 ## Filtering
-in progress
+Select pathways of interest from *_KEGG_Pathway_Metal_MC_SIGNIFICANT.csv
 
 ## Percent overlapping element-interacting genes in KEGG pathway
 in progress
