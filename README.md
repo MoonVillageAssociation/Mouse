@@ -11,16 +11,19 @@ ID,GLDS,stat_col,flip,label
 
 ## KEGG GSEA
 
+Setup
+```
+library(tidyverse)
+library(clusterProfiler)
+```
+
 Specify data to analyze from contrast_map.csv
 ```
 TARGET_ID <- 4
 ```
 
-Setup
+Setup KEGG
 ```
-library(tidyverse)
-library(clusterProfiler)
-
 organism_kegg <- "mmu"
 entrez_col <- "ENTREZID"
 ```
