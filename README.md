@@ -11,39 +11,41 @@ organism_kegg <- "mmu"
 entrez_col <- "ENTREZID"
 ```
 
-Define contrasts from RNA-seq data
+Create contrast_map.csv to define data and contrasts
 ```
-contrast_map <- list(
+ID,GLDS,stat_col,flip,label
+1,GLDS-606,Stat_(Wild Type & Space Flight)v(Wild Type & Ground Control),FALSE,WT_SF_vs_GC
+2,GLDS-673,Stat_(Space Flight)v(Ground Control),FALSE,SF_vs_GC
+3,GLDS-674,Stat_(Space Flight & 12 week & On ISS)v(Ground Control & 12 week & On Earth),FALSE,SF12w_ISS_vs_GC12w_Earth
+4,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,SF29w_ISS_vs_GC29w_Earth
+```
 
-  "GLDS-606" = list(
-    list(
-      stat_col = "Stat_(Wild Type & Space Flight)v(Wild Type & Ground Control)",
-      flip     = FALSE,
-      label    = "WT_SF_vs_GC"
-    )
-  ),
+Specify data set to analyze
+```
+TARGET_ID <- "GLDS-674"
+```
+Setup
+```
+library(tidyverse)
+library(clusterProfiler)
 
-  "GLDS-673" = list(
-    list(
-      stat_col = "Stat_(Space Flight)v(Ground Control)",
-      flip     = FALSE,
-      label    = "SF_vs_GC"
-    )
-  ),
+organism_kegg <- "mmu"
+entrez_col <- "ENTREZID"
+```
 
-  "GLDS-674" = list(
-    list(
-      stat_col = "Stat_(Space Flight & 12 week & On ISS)v(Ground Control & 12 week & On Earth)",
-      flip     = FALSE,
-      label    = "SF12w_ISS_vs_GC12w_Earth"
-    ),
-    list(
-      stat_col = "Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth)",
-      flip     = FALSE,
-      label    = "SF29w_ISS_vs_GC29w_Earth"
-    )
-  )
-)
+Specify data to run
+```
+TARGET_ID <- 4
+```
+
+Read contrast table
+```
+contrast_df <- read_csv("contrast_map.csv", show_col_types = FALSE) %>%
+  filter(ID == TARGET_ID)
+
+stopifnot(nrow(contrast_df) == 1)
+
+TARGET_GLDS <- contrast_df$GLDS[1]
 ```
 
 Function to run KEGG GSEA
@@ -68,51 +70,48 @@ run_kegg_gsea <- function(df, stat_col, flip = FALSE) {
 }
 ```
 
-Loop
+Run
 ```
-for (glds in names(contrast_map)) {
+csv_file <- paste0(
+  TARGET_GLDS,
+  "_rna_seq_differential_expression_GLbulkRNAseq.csv"
+)
 
-  csv_file <- paste0(
-    glds,
-    "_rna_seq_differential_expression_GLbulkRNAseq.csv"
+message("Processing ", TARGET_GLDS)
+
+df <- read_csv(csv_file, show_col_types = FALSE)
+
+contrast <- contrast_df
+
+message("  Contrast: ", contrast$label)
+
+if (!contrast$stat_col %in% colnames(df)) {
+  stop("Stat column not found: ", contrast$stat_col)
+}
+
+gsea <- run_kegg_gsea(
+  df       = df,
+  stat_col = contrast$stat_col,
+  flip     = contrast$flip
+)
+
+if (!is.null(gsea) && nrow(gsea@result) > 0) {
+
+  res <- as.data.frame(gsea@result)
+  res$GLDS     <- TARGET_GLDS
+  res$Contrast <- contrast$label
+  res$StatUsed <- contrast$stat_col
+
+  out_file <- paste0(
+    TARGET_GLDS, "_", contrast$label, "_KEGG_GSEA.csv"
   )
 
-  message("Processing ", glds)
-
-  df <- read_csv(csv_file, show_col_types = FALSE)
-
-  for (contrast in contrast_map[[glds]]) {
-
-    message("  Contrast: ", contrast$label)
-
-    if (!contrast$stat_col %in% colnames(df)) {
-      warning("    Stat column not found: ", contrast$stat_col)
-      next
-    }
-
-    gsea <- run_kegg_gsea(
-      df       = df,
-      stat_col = contrast$stat_col,
-      flip     = contrast$flip
-    )
-
-    if (is.null(gsea) || nrow(gsea@result) == 0) {
-      warning("    No significant KEGG pathways")
-      next
-    }
-
-    res <- as.data.frame(gsea@result)
-    res$GLDS     <- glds
-    res$Contrast <- contrast$label
-    res$StatUsed <- contrast$stat_col
-
-    out_file <- paste0(
-      glds, "_", contrast$label, "_KEGG_GSEA.csv"
-    )
-
-    write_csv(res, out_file)
-    message("    Saved: ", out_file)
-  }
+  write_csv(res, out_file)
+  message("    Saved: ", out_file)
+} else {
+  warning("No significant KEGG pathways")
 }
 ```
 
+## KEGG
+...
