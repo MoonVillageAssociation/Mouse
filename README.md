@@ -104,10 +104,10 @@ if (!is.null(gsea) && nrow(gsea@result) > 0) {
 Expands significant KEGG pathways to full KEGG gene lists and filtered to expressed genes only
 
 Setup
-'''
+```
 library(tidyverse)
 library(KEGGREST)
-'''
+```
 
 Specify data to analyze from contrast_map.csv
 ```
