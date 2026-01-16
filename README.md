@@ -176,9 +176,145 @@ message("Saved: ", out_file)
 ```
 
 
-## Enrichment of metal-interacting genes in KEGG pathways
-Monte-Carlo enrichment of CTD metal gene sets in KEGG pathways compared to a random background
-...
+## Enrichment of element-interacting genes in KEGG pathways
+Monte-Carlo enrichment of CTD element gene sets in KEGG pathways compared to a random background
 
+Setup
+```
+library(tidyverse)
+library(org.Mm.eg.db)
+library(AnnotationDbi)
+```
 
-## 
+Specify data to analyze from contrast_map.csv
+```
+TARGET_ID <- 4
+```
+
+Specify metals of interest
+```
+metal_files <- c("Al.csv", "Cu.csv", "Fe.csv", "Ti.csv")
+```
+
+Setup permutations
+```
+set.seed(123)
+n_perm <- 1000
+```
+
+Read contrast table
+```
+contrast_table <- "contrast_map.csv"
+
+contrast <- read_csv(contrast_table, show_col_types = FALSE) %>%
+  filter(ID == TARGET_ID)
+
+stopifnot(nrow(contrast) == 1)
+
+glds  <- contrast$GLDS
+label <- contrast$label
+```
+
+Input files
+```
+kegg_pathway_file <- paste0(
+  glds, "_", label, "_KEGG_FULL_PATHWAY_GENES_EXPRESSED.csv"
+)
+
+kegg_gsea_file <- paste0(
+  glds, "_", label, "_KEGG_GSEA.csv"
+)
+
+background_file <- paste0(
+  glds, "_rna_seq_differential_expression_GLbulkRNAseq.csv"
+)
+
+message("Processing ", glds, " (", label, ")")
+```
+
+Background universe
+```
+bg <- read_csv(background_file, show_col_types = FALSE) %>%
+  filter(!is.na(ENTREZID)) %>%
+  pull(ENTREZID) %>%
+  unique()
+```
+
+KEGG gene sets
+```
+kegg_sets <- read_csv(kegg_pathway_file, show_col_types = FALSE) %>%
+  distinct(ID, ENTREZID)
+
+kegg_desc <- read_csv(kegg_gsea_file, show_col_types = FALSE) %>%
+  select(ID, Description) %>%
+  distinct()
+```
+
+Check for enrichment of element-interacting genes
+```
+all_metal_results <- list()
+
+for (metal_file in metal_files) {
+
+  metal <- tools::file_path_sans_ext(basename(metal_file))
+
+  metal_genes <- read_csv(metal_file, show_col_types = FALSE) %>%
+    pull(`Gene ID`) %>%
+    intersect(bg)
+
+  res <- kegg_sets %>%
+    group_by(ID) %>%
+    summarise(
+      pathway_genes = list(unique(ENTREZID)),
+      n_pathway = length(pathway_genes),
+      .groups = "drop"
+    ) %>%
+    rowwise() %>%
+    mutate(
+      observed_k = length(intersect(pathway_genes, metal_genes)),
+      null_k = list({
+        replicate(
+          n_perm,
+          length(intersect(
+            sample(bg, n_pathway),
+            metal_genes
+          ))
+        )
+      }),
+      p_value = mean(unlist(null_k) >= observed_k),
+      GLDS = glds,
+      Metal = metal
+    ) %>%
+    ungroup() %>%
+    mutate(padj = p.adjust(p_value, method = "BH")) %>%
+    filter(padj < 0.05) %>%
+    left_join(kegg_desc, by = "ID") %>%
+    select(
+      GLDS, Metal,
+      ID, Description,
+      n_pathway,
+      observed_k,
+      p_value, padj
+    )
+
+  all_metal_results[[metal]] <- res
+}
+
+final <- bind_rows(all_metal_results)
+
+out_file <- paste0(
+  glds, "_", label, "_KEGG_Pathway_Metal_MC_SIGNIFICANT.csv"
+)
+
+write_csv(final, out_file)
+message("Saved: ", out_file)
+```
+
+## Filtering
+in progress
+
+## Percent overlapping element-interacting genes in KEGG pathway
+in progress
+
+## Plot
+in progress
