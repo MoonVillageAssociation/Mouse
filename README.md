@@ -1,7 +1,5 @@
 # MouseAnalysis
 
-## KEGG
-
 Create contrast_map.csv to define data and contrasts
 ```
 ID,GLDS,stat_col,flip,label
@@ -10,6 +8,8 @@ ID,GLDS,stat_col,flip,label
 3,GLDS-674,Stat_(Space Flight & 12 week & On ISS)v(Ground Control & 12 week & On Earth),FALSE,SF12w_ISS_vs_GC12w_Earth
 4,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,SF29w_ISS_vs_GC29w_Earth
 ```
+
+## KEGG GSEA
 
 Specify data to analyze from contrast_map.csv
 ```
