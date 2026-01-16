@@ -371,9 +371,13 @@ Load data
 kegg  <- read_csv(kegg_csv, show_col_types = FALSE)
 metal <- read_csv(metal_csv, show_col_types = FALSE)
 
-pathways_of_interest <- read_lines(pathway_txt) %>%
-  str_trim() %>%
-  discard(~ .x == "")
+pathway_csv <- paste0(
+  glds_id, "_", label, "_selected_kegg_pathways.csv"
+)
+
+pathways_of_interest <- read_csv(pathway_csv, show_col_types = FALSE) %>%
+  pull(ID) %>%
+  unique()
 
 stopifnot(length(pathways_of_interest) > 0)
 ```
