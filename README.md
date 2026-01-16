@@ -314,7 +314,7 @@ message("Saved: ", out_file)
 
 ## Filtering
 Select pathways of interest from *_KEGG_Pathway_Metal_MC_SIGNIFICANT.csv
-Generate custom lists with *_selected_kegg_pathways.txt
+Generate custom lists with *_selected_kegg_pathways.csv
 
 ## Plot
 
@@ -358,7 +358,7 @@ metal_csv <- paste0(
 
 # Hand-selected KEGG pathways (YOU curate this)
 pathway_txt <- paste0(
-  glds_id, "_", label, "_selected_kegg_pathways.txt"
+  glds_id, "_", label, "_selected_kegg_pathways.csv"
 )
 
 # Output plot
