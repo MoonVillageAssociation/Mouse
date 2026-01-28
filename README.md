@@ -365,7 +365,7 @@ pathway_txt <- paste0(
 
 # Output plot
 out_file <- paste0(
-  glds_id, "_NES_plus_MetalHeatmap.png"
+  glds_id, "_", label, "_NES_plus_MetalHeatmap.png"
 )
 ```
 Load data
