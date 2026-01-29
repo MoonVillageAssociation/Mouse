@@ -451,7 +451,7 @@ theme_set(
 n_pathways <- length(pathway_levels)
 n_metals   <- length(levels(metal_df$Metal))
 
-cell_h <- 0.12   # inches per pathway
+cell_h <- 0.14   # inches per pathway
 cell_w <- 0.25   # inches per metal
 
 fig_height <- max(1.1, n_pathways * cell_h)
