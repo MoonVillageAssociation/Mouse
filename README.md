@@ -446,7 +446,8 @@ Plot design
 ```
 OSD_id <- contrast$OSD
 
-tissue <- strsplit(label, "_")[[1]][2]
+tissue <- strsplit(label, "_")[[1]]
+tissue <- tissue[2]
 tissue <- stringr::str_to_title(tissue)
 
 plot_title <- bquote(.(tissue) ~ italic("(" * .(OSD_id) * ")"))
@@ -487,7 +488,6 @@ p_nes <- ggplot(
     y = NULL,
     title = plot_title
   ) +
-  theme_minimal(base_size = 7) +
   theme(
     panel.border = element_rect(color = "black", fill = NA, linewidth = 0.3),
     plot.margin  = fixed_margin,
@@ -508,7 +508,6 @@ p_metal <- ggplot(
     name = expression(-log[10]~FDR)
   ) +
   labs(x = NULL, y = NULL) +
-  theme_minimal(base_size = 7) +
   theme(
     plot.margin      = fixed_margin,
     panel.background = element_blank(),
