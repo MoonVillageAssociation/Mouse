@@ -3,11 +3,11 @@
 Create contrast_map.csv to define data and contrasts
 ```
 ID,GLDS,stat_col,flip,label
-1,GLDS-606,Stat_(Wild Type & Space Flight)v(Wild Type & Ground Control),FALSE,606_colon_29d
-2,GLDS-673,Stat_(Space Flight)v(Ground Control),FALSE,673_soleus_38d
-3,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,674_kidney_58d
-4,GLDS-248,Stat_(Space Flight & ~60 day & On ISS & Carcass)v(Ground Control & ~60 day & On Earth & Carcass),FALSE,248_lung_56d
-5,GLDS-589,Stat_(Space Flight & 29 week)v(Ground Control & 29 week),FALSE,589_brain_58d
+1,GLDS-606,Stat_(Wild Type & Space Flight)v(Wild Type & Ground Control),FALSE,606_colon_29d,OSD
+2,GLDS-673,Stat_(Space Flight)v(Ground Control),FALSE,673_soleus_38d,OSD-770
+3,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,674_kidney_58d,OSD-771
+4,GLDS-248,Stat_(Space Flight & ~60 day & On ISS & Carcass)v(Ground Control & ~60 day & On Earth & Carcass),FALSE,248_lung_56d,OSD-248
+5,GLDS-589,Stat_(Space Flight & 29 week)v(Ground Control & 29 week),FALSE,589_brain_58d,OSD-613
 ```
 
 ## KEGG GSEA
@@ -444,6 +444,13 @@ metal_df <- metal %>%
 
 Plot design
 ```
+OSD_id <- contrast$OSD
+
+tissue <- strsplit(label, "_")[[1]][2]
+tissue <- stringr::str_to_title(tissue)
+
+plot_title <- bquote(.(tissue) ~ italic("(" * .(OSD_id) * ")"))
+
 theme_set(
   theme_minimal(base_size = 7, base_family = "Helvetica")
 )
@@ -478,7 +485,7 @@ p_nes <- ggplot(
   labs(
     x = "NES",
     y = NULL,
-    title = expression("Colon " * italic("(OSD-667)"))
+    title = title = plot_title
   ) +
   theme_minimal(base_size = 7) +
   theme(
