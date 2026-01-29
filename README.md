@@ -456,11 +456,12 @@ theme_set(
 )
 
 theme_update(
-  text         = element_text(color = "black"),
-  axis.text    = element_text(color = "black"),
-  axis.title   = element_text(color = "black"),
-  legend.text  = element_text(color = "black"),
-  legend.title = element_text(color = "black")
+  text         = element_text(size = 7, color = "black"),
+  axis.text    = element_text(size = 7, color = "black"),
+  axis.title   = element_text(size = 7, color = "black"),
+  plot.title   = element_text(size = 7, color = "black"),
+  legend.text  = element_text(size = 7, color = "black"),
+  legend.title = element_text(size = 7, color = "black")
 )
 
 n_pathways <- length(pathway_levels)
