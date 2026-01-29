@@ -419,23 +419,43 @@ pathway_levels <- nes_df$Pathway
 ```
 Prep element data
 ```
+metals_to_plot <- metal %>%
+  filter(ID %in% pathways_of_interest) %>%
+  distinct(Metal) %>%
+  pull(Metal)
+
 metal_df <- metal %>%
   left_join(
     kegg %>% dplyr::select(ID, Description),
     by = "ID"
   ) %>%
   filter(ID %in% pathways_of_interest) %>%
+  filter(Metal %in% metals_to_plot) %>%
   mutate(
     Pathway = str_remove(
       Description.y,
       " - Mus musculus \\(house mouse\\)"
     ),
-    Metal = factor(Metal, levels = c("Al", "Cu", "Fe", "Ti")),
-    padj_plot = pmax(padj, 1e-300)
-  ) %>%
-  mutate(
+    Metal = factor(Metal, levels = metals_to_plot),
+    padj_plot = pmax(padj, 1e-300),
     Pathway = factor(Pathway, levels = pathway_levels)
   )
+```
+
+Plot design
+```
+theme_set(
+  theme_minimal(base_size = 7, base_family = "Helvetica")
+)
+
+n_pathways <- length(pathway_levels)
+n_metals   <- length(levels(metal_df$Metal))
+
+cell_h <- 0.12   # inches per pathway
+cell_w <- 0.25   # inches per metal
+
+fig_height <- max(1.1, n_pathways * cell_h)
+fig_width  <- 5.3 + n_metals * cell_w
 ```
 
 NES barplot
@@ -455,9 +475,7 @@ p_nes <- ggplot(
   theme_minimal(base_size = 7) +
   theme(
     panel.border = element_rect(color = "black", fill = NA, linewidth = 0.3),
-    axis.text.y  = element_text(size = 7),
     plot.margin  = fixed_margin,
-    text         = element_text(size = 7, color = "black")
   )
 ```
 
@@ -491,6 +509,7 @@ p_metal <- ggplot(
 
 Combine & save
 ```
+
 p <- plot_grid(
   p_nes + theme(plot.margin = margin(5, 1, 5, 25)),
   p_metal + theme(plot.margin = margin(5, 5, 5, 1)),
@@ -505,8 +524,8 @@ p <- ggdraw(p)
 ggsave(
   out_file,
   p,
-  width  = 5,
-  height = 1.1,
+  width  = fig_width,
+  height = fig_height,
   dpi    = 600,
   bg     = "transparent"
 )
