@@ -266,8 +266,8 @@ KEGG gene sets
 kegg_sets <- read_csv(kegg_pathway_file, show_col_types = FALSE) %>%
   distinct(ID, ENTREZID)
 
-kegg_desc <- read_csv(kegg_gsea_file, show_col_types = FALSE) %>%
-  select(ID, Description) %>%
+ kegg_desc <- read_csv(kegg_gsea_file, show_col_types = FALSE) %>%
+  dplyr::select(ID, Description) %>%
   distinct()
 ```
 
@@ -310,7 +310,7 @@ for (metal_file in metal_files) {
     mutate(padj = p.adjust(p_value, method = "BH")) %>%
     filter(padj < 0.05) %>%
     left_join(kegg_desc, by = "ID") %>%
-    select(
+    dplyr::select(
       GLDS, Metal,
       ID, Description,
       n_pathway,
