@@ -197,7 +197,24 @@ TARGET_ID <- 4
 
 Specify metals of interest
 ```
-metal_files <- c("Al.csv", "Cu.csv", "Fe.csv", "Ti.csv")
+metal_files <- c(
+  "Al.csv",
+  "B.csv",
+  "Ba.csv",
+  "Ca.csv",
+  "Cd.csv",
+  "Cr.csv",
+  "Cu.csv",
+  "Fe.csv",
+  "K.csv",
+  "Li.csv",
+  "Mo.csv",
+  "Na.csv",
+  "Ni.csv",
+  "P.csv",
+  "Pb.csv",
+  "Zn.csv"
+)
 ```
 
 Setup permutations
