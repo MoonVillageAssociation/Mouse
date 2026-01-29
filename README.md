@@ -485,7 +485,7 @@ p_nes <- ggplot(
   labs(
     x = "NES",
     y = NULL,
-    title = title = plot_title
+    title = plot_title
   ) +
   theme_minimal(base_size = 7) +
   theme(
