@@ -530,7 +530,7 @@ p <- plot_grid(
   nrow = 1,
   align = "h",
   axis = "tb",
-  rel_widths = c(5.3, 2)
+  rel_widths = c(5.3, n_metals * cell_w)
 )
 
 p <- ggdraw(p)
