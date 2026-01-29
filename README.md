@@ -403,7 +403,8 @@ stopifnot(length(pathways_of_interest) > 0)
 ```
 
 Prep NES data
-```nes_df <- kegg %>%
+```
+nes_df <- kegg %>%
   filter(ID %in% pathways_of_interest) %>%
   mutate(
     Pathway = str_remove(
