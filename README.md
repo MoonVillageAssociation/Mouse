@@ -446,8 +446,7 @@ Plot design
 ```
 OSD_id <- contrast$OSD
 
-tissue <- strsplit(label, "_")[[1]]
-tissue <- tissue[2]
+tissue <- stringr::str_extract(label, "(?<=_)[A-Za-z]+(?=_)")
 tissue <- stringr::str_to_title(tissue)
 
 plot_title <- bquote(.(tissue) ~ italic("(" * .(OSD_id) * ")"))
