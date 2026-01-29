@@ -341,6 +341,7 @@ Setup
 ```
 library(tidyverse)
 library(cowplot)
+library(dplyr)
 ```
 
 Specify data to analyze from contrast_map.csv
@@ -419,7 +420,7 @@ Prep element data
 ```
 metal_df <- metal %>%
   left_join(
-    kegg %>% select(ID, Description),
+    kegg %>% dplyr::select(ID, Description),
     by = "ID"
   ) %>%
   filter(ID %in% pathways_of_interest) %>%
