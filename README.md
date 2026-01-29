@@ -48,7 +48,7 @@ run_kegg_gsea <- function(df, stat_col, flip = FALSE) {
            !is.na(.data[[entrez_col]])) %>%
     distinct(.data[[entrez_col]], .keep_all = TRUE) %>%
     mutate(stat_use = if (flip) - .data[[stat_col]] else .data[[stat_col]]) %>%
-    select(!!entrez_col, stat_use) %>%
+    dplyr::select(!!entrez_col, stat_use) %>%
     deframe() %>%
     sort(decreasing = TRUE)
 
