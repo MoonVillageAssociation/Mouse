@@ -448,6 +448,14 @@ theme_set(
   theme_minimal(base_size = 7, base_family = "Helvetica")
 )
 
+theme_update(
+  text         = element_text(color = "black"),
+  axis.text    = element_text(color = "black"),
+  axis.title   = element_text(color = "black"),
+  legend.text  = element_text(color = "black"),
+  legend.title = element_text(color = "black")
+)
+
 n_pathways <- length(pathway_levels)
 n_metals   <- length(levels(metal_df$Metal))
 
