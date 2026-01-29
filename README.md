@@ -3,11 +3,11 @@
 Create contrast_map.csv to define data and contrasts
 ```
 ID,GLDS,stat_col,flip,label,OSD
-1,GLDS-606,Stat_(Wild Type & Space Flight)v(Wild Type & Ground Control),FALSE,606_colon_29d,OSD
-2,GLDS-673,Stat_(Space Flight)v(Ground Control),FALSE,673_soleus_38d,OSD-770
-3,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,674_kidney_58d,OSD-771
-4,GLDS-248,Stat_(Space Flight & ~60 day & On ISS & Carcass)v(Ground Control & ~60 day & On Earth & Carcass),FALSE,248_lung_56d,OSD-248
-5,GLDS-589,Stat_(Space Flight & 29 week)v(Ground Control & 29 week),FALSE,589_brain_58d,OSD-613
+1,GLDS-606,Stat_(Wild Type & Space Flight)v(Wild Type & Ground Control),FALSE,colon_29d,OSD-667
+2,GLDS-673,Stat_(Space Flight)v(Ground Control),FALSE,soleus_38d,OSD-770
+3,GLDS-674,Stat_(Space Flight & 29 week & On ISS)v(Ground Control & 29 week & On Earth),FALSE,kidney_58d,OSD-771
+4,GLDS-248,Stat_(Space Flight & ~60 day & On ISS & Carcass)v(Ground Control & ~60 day & On Earth & Carcass),FALSE,lung_56d,OSD-248
+5,GLDS-589,Stat_(Space Flight & 29 week)v(Ground Control & 29 week),FALSE,brain_58d,OSD-613
 ```
 
 ## KEGG GSEA
