@@ -1,0 +1,475 @@
+GLDS,Metal,ID,Description,n_pathway,observed_k,p_value,padj
+GLDS-674,Al,mmu04066,HIF-1 signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Al,mmu04144,Endocytosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Al,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,1,0.001,0.011142857142857142
+GLDS-674,Al,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Al,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Al,mmu04660,T cell receptor signaling pathway - Mus musculus (house mouse),1,1,0.002,0.020800000000000003
+GLDS-674,Al,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,1,0.001,0.011142857142857142
+GLDS-674,Al,mmu05135,Yersinia infection - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Al,mmu05160,Hepatitis C - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Al,mmu05162,Measles - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Al,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Al,mmu05164,Influenza A - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Al,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,1,0.001,0.011142857142857142
+GLDS-674,Al,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),1,1,0.001,0.011142857142857142
+GLDS-674,Al,mmu05170,Human immunodeficiency virus 1 infection - Mus musculus (house mouse),1,1,0.001,0.011142857142857142
+GLDS-674,Ca,mmu04010,MAPK signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04014,Ras signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04020,Calcium signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04022,cGMP-PKG signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04068,FoxO signaling pathway - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Ca,mmu04072,Phospholipase D signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04081,Hormone signaling - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04137,Mitophagy - animal - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Ca,mmu04140,Autophagy - animal - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04144,Endocytosis - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Ca,mmu04148,Efferocytosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04210,Apoptosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04261,Adrenergic signaling in cardiomyocytes - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04371,Apelin signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04614,Renin-angiotensin system - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04722,Neurotrophin signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu04925,Aldosterone synthesis and secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04933,AGE-RAGE signaling pathway in diabetic complications - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04934,Cushing syndrome - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ca,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05132,Salmonella infection - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05142,Chagas disease - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Ca,mmu05146,Amoebiasis - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Ca,mmu05152,Tuberculosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05160,Hepatitis C - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05161,Hepatitis B - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05162,Measles - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05164,Influenza A - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05170,Human immunodeficiency virus 1 infection - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ca,mmu05417,Lipid and atherosclerosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Cd,mmu00010,Glycolysis / Gluconeogenesis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),1,16,0,0
+GLDS-674,Cd,mmu00380,Tryptophan metabolism - Mus musculus (house mouse),1,1,0.03,0.04775510204081632
+GLDS-674,Cd,mmu00561,Glycerolipid metabolism - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),1,12,0,0
+GLDS-674,Cd,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),1,8,0,0
+GLDS-674,Cd,mmu00670,One carbon pool by folate - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,21,0,0
+GLDS-674,Cd,mmu03010,Ribosome - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu03040,Spliceosome - Mus musculus (house mouse),1,1,0.016,0.03303529411764705
+GLDS-674,Cd,mmu04010,MAPK signaling pathway - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cd,mmu04014,Ras signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04015,Rap1 signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04020,Calcium signaling pathway - Mus musculus (house mouse),1,1,0.017,0.03303529411764705
+GLDS-674,Cd,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu04062,Chemokine signaling pathway - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu04066,HIF-1 signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu04071,Sphingolipid signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04072,Phospholipase D signaling pathway - Mus musculus (house mouse),1,1,0.008,0.021517241379310346
+GLDS-674,Cd,mmu04137,Mitophagy - animal - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cd,mmu04140,Autophagy - animal - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04141,Protein processing in endoplasmic reticulum - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04144,Endocytosis - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu04148,Efferocytosis - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cd,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04210,Apoptosis - Mus musculus (house mouse),1,1,0.012,0.0288
+GLDS-674,Cd,mmu04211,Longevity regulating pathway - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04261,Adrenergic signaling in cardiomyocytes - Mus musculus (house mouse),1,1,0.013,0.03026865671641791
+GLDS-674,Cd,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0.025,0.04020618556701031
+GLDS-674,Cd,mmu04380,Osteoclast differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu04382,Cornified envelope formation - Mus musculus (house mouse),1,1,0.019,0.034465116279069764
+GLDS-674,Cd,mmu04390,Hippo signaling pathway - Mus musculus (house mouse),1,1,0.02,0.03466666666666667
+GLDS-674,Cd,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,6,0,0
+GLDS-674,Cd,mmu04517,IgSF CAM signaling - Mus musculus (house mouse),1,1,0.011,0.02767741935483871
+GLDS-674,Cd,mmu04518,Integrin signaling - Mus musculus (house mouse),1,1,0.016,0.03303529411764705
+GLDS-674,Cd,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cd,mmu04611,Platelet activation - Mus musculus (house mouse),1,1,0.015,0.03303529411764705
+GLDS-674,Cd,mmu04614,Renin-angiotensin system - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04630,JAK-STAT signaling pathway - Mus musculus (house mouse),1,1,0.02,0.03466666666666667
+GLDS-674,Cd,mmu04657,IL-17 signaling pathway - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04660,T cell receptor signaling pathway - Mus musculus (house mouse),1,1,0.023,0.037375
+GLDS-674,Cd,mmu04666,Fc gamma R-mediated phagocytosis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04670,Leukocyte transendothelial migration - Mus musculus (house mouse),1,1,0.02,0.03466666666666667
+GLDS-674,Cd,mmu04722,Neurotrophin signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04726,Serotonergic synapse - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu04728,Dopaminergic synapse - Mus musculus (house mouse),1,1,0.012,0.0288
+GLDS-674,Cd,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),1,9,0,0
+GLDS-674,Cd,mmu04810,Regulation of actin cytoskeleton - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu04820,Cytoskeleton in muscle cells - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu04916,Melanogenesis - Mus musculus (house mouse),1,1,0.014,0.03211764705882353
+GLDS-674,Cd,mmu04919,Thyroid hormone signaling pathway - Mus musculus (house mouse),1,1,0.013,0.03026865671641791
+GLDS-674,Cd,mmu04925,Aldosterone synthesis and secretion - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04933,AGE-RAGE signaling pathway in diabetic complications - Mus musculus (house mouse),1,1,0.022,0.036510638297872336
+GLDS-674,Cd,mmu04934,Cushing syndrome - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cd,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04972,Pancreatic secretion - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu04976,Bile secretion - Mus musculus (house mouse),1,11,0,0
+GLDS-674,Cd,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,1,0.021,0.035225806451612905
+GLDS-674,Cd,mmu05132,Salmonella infection - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05133,Pertussis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05135,Yersinia infection - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu05142,Chagas disease - Mus musculus (house mouse),1,1,0.008,0.021517241379310346
+GLDS-674,Cd,mmu05144,Malaria - Mus musculus (house mouse),1,6,0,0
+GLDS-674,Cd,mmu05146,Amoebiasis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05152,Tuberculosis - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cd,mmu05160,Hepatitis C - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cd,mmu05161,Hepatitis B - Mus musculus (house mouse),1,1,0.011,0.02767741935483871
+GLDS-674,Cd,mmu05162,Measles - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cd,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu05164,Influenza A - Mus musculus (house mouse),1,6,0,0
+GLDS-674,Cd,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cd,mmu05170,Human immunodeficiency virus 1 infection - Mus musculus (house mouse),1,6,0,0
+GLDS-674,Cd,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),1,12,0,0
+GLDS-674,Cd,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.012,0.0288
+GLDS-674,Cd,mmu05206,MicroRNAs in cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,10,0,0
+GLDS-674,Cd,mmu05210,Colorectal cancer - Mus musculus (house mouse),1,1,0.021,0.035225806451612905
+GLDS-674,Cd,mmu05211,Renal cell carcinoma - Mus musculus (house mouse),1,1,0.02,0.03466666666666667
+GLDS-674,Cd,mmu05212,Pancreatic cancer - Mus musculus (house mouse),1,1,0.017,0.03303529411764705
+GLDS-674,Cd,mmu05213,Endometrial cancer - Mus musculus (house mouse),1,1,0.021,0.035225806451612905
+GLDS-674,Cd,mmu05215,Prostate cancer - Mus musculus (house mouse),1,1,0.023,0.037375
+GLDS-674,Cd,mmu05216,Thyroid cancer - Mus musculus (house mouse),1,1,0.016,0.03303529411764705
+GLDS-674,Cd,mmu05217,Basal cell carcinoma - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu05218,Melanoma - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05220,Chronic myeloid leukemia - Mus musculus (house mouse),1,1,0.01,0.026000000000000002
+GLDS-674,Cd,mmu05223,Non-small cell lung cancer - Mus musculus (house mouse),1,1,0.01,0.026000000000000002
+GLDS-674,Cd,mmu05224,Breast cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cd,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu05226,Gastric cancer - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cd,mmu05230,Central carbon metabolism in cancer - Mus musculus (house mouse),1,1,0.018,0.03303529411764705
+GLDS-674,Cd,mmu05417,Lipid and atherosclerosis - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cd,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cr,mmu00010,Glycolysis / Gluconeogenesis - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cr,mmu00561,Glycerolipid metabolism - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cr,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Cr,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cr,mmu03008,Ribosome biogenesis in eukaryotes - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu03010,Ribosome - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Cr,mmu03040,Spliceosome - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cr,mmu04010,MAPK signaling pathway - Mus musculus (house mouse),1,1,0.007,0.015380281690140846
+GLDS-674,Cr,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu04062,Chemokine signaling pathway - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu04066,HIF-1 signaling pathway - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cr,mmu04071,Sphingolipid signaling pathway - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu04137,Mitophagy - animal - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu04140,Autophagy - animal - Mus musculus (house mouse),1,1,0.001,0.005200000000000001
+GLDS-674,Cr,mmu04144,Endocytosis - Mus musculus (house mouse),1,8,0,0
+GLDS-674,Cr,mmu04148,Efferocytosis - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0.006,0.013764705882352941
+GLDS-674,Cr,mmu04210,Apoptosis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cr,mmu04211,Longevity regulating pathway - Mus musculus (house mouse),1,1,0.007,0.015380281690140846
+GLDS-674,Cr,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Cr,mmu04380,Osteoclast differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu04390,Hippo signaling pathway - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cr,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cr,mmu04517,IgSF CAM signaling - Mus musculus (house mouse),1,1,0.006,0.013764705882352941
+GLDS-674,Cr,mmu04540,Gap junction - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu04611,Platelet activation - Mus musculus (house mouse),1,1,0.006,0.013764705882352941
+GLDS-674,Cr,mmu04614,Renin-angiotensin system - Mus musculus (house mouse),1,1,0.001,0.005200000000000001
+GLDS-674,Cr,mmu04630,JAK-STAT signaling pathway - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu04666,Fc gamma R-mediated phagocytosis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cr,mmu04722,Neurotrophin signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu04726,Serotonergic synapse - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cr,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu04919,Thyroid hormone signaling pathway - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu04976,Bile secretion - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu05132,Salmonella infection - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cr,mmu05135,Yersinia infection - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu05146,Amoebiasis - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05152,Tuberculosis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cr,mmu05160,Hepatitis C - Mus musculus (house mouse),1,1,0.007,0.015380281690140846
+GLDS-674,Cr,mmu05161,Hepatitis B - Mus musculus (house mouse),1,1,0.001,0.005200000000000001
+GLDS-674,Cr,mmu05162,Measles - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,8,0,0
+GLDS-674,Cr,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,9,0,0
+GLDS-674,Cr,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),1,9,0,0
+GLDS-674,Cr,mmu05170,Human immunodeficiency virus 1 infection - Mus musculus (house mouse),1,8,0,0
+GLDS-674,Cr,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05206,MicroRNAs in cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu05210,Colorectal cancer - Mus musculus (house mouse),1,1,0.009,0.019499999999999997
+GLDS-674,Cr,mmu05212,Pancreatic cancer - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05213,Endometrial cancer - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05215,Prostate cancer - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05216,Thyroid cancer - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05217,Basal cell carcinoma - Mus musculus (house mouse),1,1,0.003,0.01017391304347826
+GLDS-674,Cr,mmu05218,Melanoma - Mus musculus (house mouse),1,1,0.004,0.010947368421052633
+GLDS-674,Cr,mmu05220,Chronic myeloid leukemia - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu05223,Non-small cell lung cancer - Mus musculus (house mouse),1,1,0.001,0.005200000000000001
+GLDS-674,Cr,mmu05224,Breast cancer - Mus musculus (house mouse),1,1,0.006,0.013764705882352941
+GLDS-674,Cr,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu05226,Gastric cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cr,mmu05230,Central carbon metabolism in cancer - Mus musculus (house mouse),1,1,0.002,0.008432432432432432
+GLDS-674,Cr,mmu05417,Lipid and atherosclerosis - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cr,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),1,1,0.005,0.0121875
+GLDS-674,Cu,mmu00010,Glycolysis / Gluconeogenesis - Mus musculus (house mouse),1,1,0.01,0.019746835443037975
+GLDS-674,Cu,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.008,0.017333333333333333
+GLDS-674,Cu,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),1,10,0,0
+GLDS-674,Cu,mmu00190,Oxidative phosphorylation - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu00561,Glycerolipid metabolism - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cu,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cu,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,10,0,0
+GLDS-674,Cu,mmu04010,MAPK signaling pathway - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04020,Calcium signaling pathway - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04022,cGMP-PKG signaling pathway - Mus musculus (house mouse),1,1,0.006,0.015864406779661017
+GLDS-674,Cu,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cu,mmu04062,Chemokine signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04071,Sphingolipid signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04137,Mitophagy - animal - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04140,Autophagy - animal - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cu,mmu04144,Endocytosis - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cu,mmu04148,Efferocytosis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04210,Apoptosis - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04211,Longevity regulating pathway - Mus musculus (house mouse),1,1,0.004,0.014181818181818183
+GLDS-674,Cu,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04390,Hippo signaling pathway - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04510,Focal adhesion - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cu,mmu04517,IgSF CAM signaling - Mus musculus (house mouse),1,1,0.006,0.015864406779661017
+GLDS-674,Cu,mmu04518,Integrin signaling - Mus musculus (house mouse),1,1,0.009,0.01872
+GLDS-674,Cu,mmu04540,Gap junction - Mus musculus (house mouse),1,1,0.009,0.01872
+GLDS-674,Cu,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04630,JAK-STAT signaling pathway - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04657,IL-17 signaling pathway - Mus musculus (house mouse),1,1,0.009,0.01872
+GLDS-674,Cu,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.006,0.015864406779661017
+GLDS-674,Cu,mmu04722,Neurotrophin signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04726,Serotonergic synapse - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Cu,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cu,mmu04810,Regulation of actin cytoskeleton - Mus musculus (house mouse),1,1,0.004,0.014181818181818183
+GLDS-674,Cu,mmu04820,Cytoskeleton in muscle cells - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu04919,Thyroid hormone signaling pathway - Mus musculus (house mouse),1,1,0.004,0.014181818181818183
+GLDS-674,Cu,mmu04925,Aldosterone synthesis and secretion - Mus musculus (house mouse),1,1,0.008,0.017333333333333333
+GLDS-674,Cu,mmu04928,"Parathyroid hormone synthesis, secretion and action - Mus musculus (house mouse)",1,1,0.01,0.019746835443037975
+GLDS-674,Cu,mmu04933,AGE-RAGE signaling pathway in diabetic complications - Mus musculus (house mouse),1,1,0.008,0.017333333333333333
+GLDS-674,Cu,mmu04934,Cushing syndrome - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cu,mmu04976,Bile secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05132,Salmonella infection - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05135,Yersinia infection - Mus musculus (house mouse),1,1,0.01,0.019746835443037975
+GLDS-674,Cu,mmu05142,Chagas disease - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05144,Malaria - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05146,Amoebiasis - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu05152,Tuberculosis - Mus musculus (house mouse),1,1,0.004,0.014181818181818183
+GLDS-674,Cu,mmu05160,Hepatitis C - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu05161,Hepatitis B - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu05162,Measles - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cu,mmu05164,Influenza A - Mus musculus (house mouse),1,1,0.006,0.015864406779661017
+GLDS-674,Cu,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cu,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Cu,mmu05170,Human immunodeficiency virus 1 infection - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cu,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),1,8,0,0
+GLDS-674,Cu,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu05206,MicroRNAs in cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Cu,mmu05210,Colorectal cancer - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu05211,Renal cell carcinoma - Mus musculus (house mouse),1,1,0.004,0.014181818181818183
+GLDS-674,Cu,mmu05212,Pancreatic cancer - Mus musculus (house mouse),1,1,0.004,0.014181818181818183
+GLDS-674,Cu,mmu05213,Endometrial cancer - Mus musculus (house mouse),1,1,0.01,0.019746835443037975
+GLDS-674,Cu,mmu05215,Prostate cancer - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu05216,Thyroid cancer - Mus musculus (house mouse),1,1,0.003,0.012315789473684212
+GLDS-674,Cu,mmu05217,Basal cell carcinoma - Mus musculus (house mouse),1,1,0.005,0.014181818181818183
+GLDS-674,Cu,mmu05218,Melanoma - Mus musculus (house mouse),1,1,0.008,0.017333333333333333
+GLDS-674,Cu,mmu05220,Chronic myeloid leukemia - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu05223,Non-small cell lung cancer - Mus musculus (house mouse),1,1,0.014,0.0273
+GLDS-674,Cu,mmu05224,Breast cancer - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Cu,mmu05226,Gastric cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05230,Central carbon metabolism in cancer - Mus musculus (house mouse),1,1,0.007,0.016058823529411764
+GLDS-674,Cu,mmu05417,Lipid and atherosclerosis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Cu,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Fe,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Fe,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Fe,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Fe,mmu04062,Chemokine signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Fe,mmu04066,HIF-1 signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Fe,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Fe,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Fe,mmu04530,Tight junction - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Fe,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Fe,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Fe,mmu05146,Amoebiasis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Li,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,1,0.001,0.017333333333333333
+GLDS-674,Li,mmu04659,Th17 cell differentiation - Mus musculus (house mouse),1,1,0.001,0.017333333333333333
+GLDS-674,Li,mmu04976,Bile secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Li,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Li,mmu05152,Tuberculosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Li,mmu05164,Influenza A - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Li,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Li,mmu05206,MicroRNAs in cancer - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Li,mmu05226,Gastric cancer - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Ni,mmu00010,Glycolysis / Gluconeogenesis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Ni,mmu00190,Oxidative phosphorylation - Mus musculus (house mouse),1,1,0.003,0.00975
+GLDS-674,Ni,mmu00561,Glycerolipid metabolism - Mus musculus (house mouse),1,1,0.003,0.00975
+GLDS-674,Ni,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Ni,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,7,0,0
+GLDS-674,Ni,mmu04010,MAPK signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04014,Ras signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04015,Rap1 signaling pathway - Mus musculus (house mouse),1,1,0.011,0.0195
+GLDS-674,Ni,mmu04020,Calcium signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04022,cGMP-PKG signaling pathway - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Ni,mmu04062,Chemokine signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04066,HIF-1 signaling pathway - Mus musculus (house mouse),1,1,0.004,0.011555555555555555
+GLDS-674,Ni,mmu04068,FoxO signaling pathway - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu04071,Sphingolipid signaling pathway - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu04081,Hormone signaling - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu04137,Mitophagy - animal - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu04140,Autophagy - animal - Mus musculus (house mouse),1,1,0.004,0.011555555555555555
+GLDS-674,Ni,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Ni,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04210,Apoptosis - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04211,Longevity regulating pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04213,Longevity regulating pathway - multiple species - Mus musculus (house mouse),1,1,0.008,0.01521951219512195
+GLDS-674,Ni,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu04380,Osteoclast differentiation - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04510,Focal adhesion - Mus musculus (house mouse),1,1,0.003,0.00975
+GLDS-674,Ni,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu04520,Adherens junction - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04611,Platelet activation - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu04614,Renin-angiotensin system - Mus musculus (house mouse),1,1,0.003,0.00975
+GLDS-674,Ni,mmu04630,JAK-STAT signaling pathway - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu04657,IL-17 signaling pathway - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu04659,Th17 cell differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04662,B cell receptor signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04666,Fc gamma R-mediated phagocytosis - Mus musculus (house mouse),1,1,0.009,0.016517647058823526
+GLDS-674,Ni,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.009,0.016517647058823526
+GLDS-674,Ni,mmu04670,Leukocyte transendothelial migration - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu04722,Neurotrophin signaling pathway - Mus musculus (house mouse),1,1,0.004,0.011555555555555555
+GLDS-674,Ni,mmu04726,Serotonergic synapse - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu04810,Regulation of actin cytoskeleton - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu04820,Cytoskeleton in muscle cells - Mus musculus (house mouse),1,1,0.009,0.016517647058823526
+GLDS-674,Ni,mmu04910,Insulin signaling pathway - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu04919,Thyroid hormone signaling pathway - Mus musculus (house mouse),1,1,0.01,0.01813953488372093
+GLDS-674,Ni,mmu04920,Adipocytokine signaling pathway - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu04923,Regulation of lipolysis in adipocytes - Mus musculus (house mouse),1,1,0.013,0.022786516853932584
+GLDS-674,Ni,mmu04933,AGE-RAGE signaling pathway in diabetic complications - Mus musculus (house mouse),1,1,0.004,0.011555555555555555
+GLDS-674,Ni,mmu04935,"Growth hormone synthesis, secretion and action - Mus musculus (house mouse)",1,1,0.008,0.01521951219512195
+GLDS-674,Ni,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Ni,mmu04976,Bile secretion - Mus musculus (house mouse),1,1,0.004,0.011555555555555555
+GLDS-674,Ni,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05017,Spinocerebellar ataxia - Mus musculus (house mouse),1,1,0.004,0.011555555555555555
+GLDS-674,Ni,mmu05132,Salmonella infection - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Ni,mmu05133,Pertussis - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu05135,Yersinia infection - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05142,Chagas disease - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu05144,Malaria - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Ni,mmu05152,Tuberculosis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05160,Hepatitis C - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Ni,mmu05161,Hepatitis B - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Ni,mmu05162,Measles - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05164,Influenza A - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Ni,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.011,0.0195
+GLDS-674,Ni,mmu05206,MicroRNAs in cancer - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Ni,mmu05210,Colorectal cancer - Mus musculus (house mouse),1,1,0.003,0.00975
+GLDS-674,Ni,mmu05212,Pancreatic cancer - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu05213,Endometrial cancer - Mus musculus (house mouse),1,1,0.006,0.013
+GLDS-674,Ni,mmu05215,Prostate cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05216,Thyroid cancer - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu05217,Basal cell carcinoma - Mus musculus (house mouse),1,1,0.005,0.012580645161290323
+GLDS-674,Ni,mmu05218,Melanoma - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05220,Chronic myeloid leukemia - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Ni,mmu05223,Non-small cell lung cancer - Mus musculus (house mouse),1,1,0.007,0.01365
+GLDS-674,Ni,mmu05224,Breast cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Ni,mmu05226,Gastric cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05230,Central carbon metabolism in cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05417,Lipid and atherosclerosis - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Ni,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),1,6,0,0
+GLDS-674,Pb,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Pb,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,1,0.002,0.024
+GLDS-674,Pb,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Pb,mmu04066,HIF-1 signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Pb,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Pb,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Pb,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Pb,mmu04630,JAK-STAT signaling pathway - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Pb,mmu04659,Th17 cell differentiation - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Pb,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Pb,mmu04972,Pancreatic secretion - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Pb,mmu04973,Carbohydrate digestion and absorption - Mus musculus (house mouse),1,1,0.001,0.014181818181818183
+GLDS-674,Pb,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,1,0.002,0.024
+GLDS-674,Zn,mmu00010,Glycolysis / Gluconeogenesis - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),1,5,0,0
+GLDS-674,Zn,mmu00190,Oxidative phosphorylation - Mus musculus (house mouse),1,1,0.003,0.009551020408163266
+GLDS-674,Zn,mmu00561,Glycerolipid metabolism - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Zn,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu00830,Retinol metabolism - Mus musculus (house mouse),1,6,0,0
+GLDS-674,Zn,mmu04010,MAPK signaling pathway - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu04062,Chemokine signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu04071,Sphingolipid signaling pathway - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu04072,Phospholipase D signaling pathway - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu04137,Mitophagy - animal - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Zn,mmu04144,Endocytosis - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0.006,0.017660377358490565
+GLDS-674,Zn,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu04210,Apoptosis - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu04211,Longevity regulating pathway - Mus musculus (house mouse),1,1,0.003,0.009551020408163266
+GLDS-674,Zn,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Zn,mmu04722,Neurotrophin signaling pathway - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu04726,Serotonergic synapse - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Zn,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Zn,mmu04919,Thyroid hormone signaling pathway - Mus musculus (house mouse),1,1,0.003,0.009551020408163266
+GLDS-674,Zn,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Zn,mmu04972,Pancreatic secretion - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu04976,Bile secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05132,Salmonella infection - Mus musculus (house mouse),1,1,0.003,0.009551020408163266
+GLDS-674,Zn,mmu05160,Hepatitis C - Mus musculus (house mouse),1,1,0.004,0.012
+GLDS-674,Zn,mmu05161,Hepatitis B - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu05162,Measles - Mus musculus (house mouse),1,1,0.004,0.012
+GLDS-674,Zn,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),1,4,0,0
+GLDS-674,Zn,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.003,0.009551020408163266
+GLDS-674,Zn,mmu05206,MicroRNAs in cancer - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Zn,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,3,0,0
+GLDS-674,Zn,mmu05210,Colorectal cancer - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05212,Pancreatic cancer - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu05213,Endometrial cancer - Mus musculus (house mouse),1,1,0.003,0.009551020408163266
+GLDS-674,Zn,mmu05215,Prostate cancer - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05216,Thyroid cancer - Mus musculus (house mouse),1,1,0.004,0.012
+GLDS-674,Zn,mmu05217,Basal cell carcinoma - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05218,Melanoma - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05220,Chronic myeloid leukemia - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05223,Non-small cell lung cancer - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05224,Breast cancer - Mus musculus (house mouse),1,1,0.001,0.0045882352941176464
+GLDS-674,Zn,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,2,0,0
+GLDS-674,Zn,mmu05226,Gastric cancer - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu05230,Central carbon metabolism in cancer - Mus musculus (house mouse),1,1,0.002,0.0072558139534883714
+GLDS-674,Zn,mmu05417,Lipid and atherosclerosis - Mus musculus (house mouse),1,1,0,0
+GLDS-674,Zn,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),1,2,0,0

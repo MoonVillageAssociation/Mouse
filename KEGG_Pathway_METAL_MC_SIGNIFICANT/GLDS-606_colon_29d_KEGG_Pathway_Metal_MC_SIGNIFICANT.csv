@@ -1,0 +1,303 @@
+GLDS,Metal,ID,Description,n_pathway,observed_k,p_value,padj
+GLDS-606,Al,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,1,0.003,0.028333333333333335
+GLDS-606,Al,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0.002,0.024285714285714285
+GLDS-606,Al,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,1,0.003,0.028333333333333335
+GLDS-606,Al,mmu04621,NOD-like receptor signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Al,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Al,mmu04660,T cell receptor signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Al,mmu05164,Influenza A - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Al,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Al,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Al,mmu05340,Primary immunodeficiency - Mus musculus (house mouse),1,1,0.004,0.034
+GLDS-606,Ca,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu04080,Neuroactive ligand-receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ca,mmu04081,Hormone signaling - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ca,mmu04144,Endocytosis - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu04650,Natural killer cell mediated cytotoxicity - Mus musculus (house mouse),1,1,0.001,0.005
+GLDS-606,Ca,mmu04934,Cushing syndrome - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ca,mmu04940,Type I diabetes mellitus - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05022,Pathways of neurodegeneration - multiple diseases - Mus musculus (house mouse),1,1,0.001,0.005
+GLDS-606,Ca,mmu05143,African trypanosomiasis - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05164,Influenza A - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ca,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05320,Autoimmune thyroid disease - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05330,Allograft rejection - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Ca,mmu05332,Graft-versus-host disease - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Cd,mmu00030,Pentose phosphate pathway - Mus musculus (house mouse),1,1,0.021,0.031315789473684214
+GLDS-606,Cd,mmu00040,Pentose and glucuronate interconversions - Mus musculus (house mouse),1,6,0,0
+GLDS-606,Cd,mmu00053,Ascorbate and aldarate metabolism - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Cd,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.02,0.031315789473684214
+GLDS-606,Cd,mmu00520,Amino sugar and nucleotide sugar metabolism - Mus musculus (house mouse),1,1,0.018,0.02942307692307692
+GLDS-606,Cd,mmu00860,Porphyrin metabolism - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),1,8,0,0
+GLDS-606,Cd,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),1,10,0,0
+GLDS-606,Cd,mmu03060,Protein export - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cd,mmu04015,Rap1 signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cd,mmu04061,Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cd,mmu04064,NF-kappa B signaling pathway - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu04080,Neuroactive ligand-receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cd,mmu04110,Cell cycle - Mus musculus (house mouse),1,1,0.015,0.028333333333333332
+GLDS-606,Cd,mmu04141,Protein processing in endoplasmic reticulum - Mus musculus (house mouse),1,1,0.018,0.02942307692307692
+GLDS-606,Cd,mmu04144,Endocytosis - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cd,mmu04146,Peroxisome - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cd,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0.016,0.028333333333333332
+GLDS-606,Cd,mmu04380,Osteoclast differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cd,mmu04390,Hippo signaling pathway - Mus musculus (house mouse),1,1,0.017,0.02942307692307692
+GLDS-606,Cd,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,6,0,0
+GLDS-606,Cd,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu04613,Neutrophil extracellular trap formation - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Cd,mmu04621,NOD-like receptor signaling pathway - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cd,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cd,mmu04650,Natural killer cell mediated cytotoxicity - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu04660,T cell receptor signaling pathway - Mus musculus (house mouse),1,1,0.016,0.028333333333333332
+GLDS-606,Cd,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.021,0.031315789473684214
+GLDS-606,Cd,mmu04728,Dopaminergic synapse - Mus musculus (house mouse),1,1,0.016,0.028333333333333332
+GLDS-606,Cd,mmu04934,Cushing syndrome - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu04940,Type I diabetes mellitus - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu04976,Bile secretion - Mus musculus (house mouse),1,11,0,0
+GLDS-606,Cd,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,1,0.023,0.03370689655172414
+GLDS-606,Cd,mmu05012,Parkinson disease - Mus musculus (house mouse),1,1,0.014,0.027045454545454546
+GLDS-606,Cd,mmu05014,Amyotrophic lateral sclerosis - Mus musculus (house mouse),1,1,0.018,0.02942307692307692
+GLDS-606,Cd,mmu05016,Huntington disease - Mus musculus (house mouse),1,1,0.021,0.031315789473684214
+GLDS-606,Cd,mmu05034,Alcoholism - Mus musculus (house mouse),1,1,0.011,0.021744186046511627
+GLDS-606,Cd,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu05143,African trypanosomiasis - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu05150,Staphylococcus aureus infection - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu05164,Influenza A - Mus musculus (house mouse),1,6,0,0
+GLDS-606,Cd,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,10,0,0
+GLDS-606,Cd,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,8,0,0
+GLDS-606,Cd,mmu05203,Viral carcinogenesis - Mus musculus (house mouse),1,6,0,0
+GLDS-606,Cd,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.019,0.03047169811320755
+GLDS-606,Cd,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,10,0,0
+GLDS-606,Cd,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu05226,Gastric cancer - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cd,mmu05320,Autoimmune thyroid disease - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Cd,mmu05323,Rheumatoid arthritis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cd,mmu05330,Allograft rejection - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu05332,Graft-versus-host disease - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cd,mmu05416,Viral myocarditis - Mus musculus (house mouse),1,6,0,0
+GLDS-606,Cr,mmu00030,Pentose phosphate pathway - Mus musculus (house mouse),1,1,0.007,0.012659574468085107
+GLDS-606,Cr,mmu00040,Pentose and glucuronate interconversions - Mus musculus (house mouse),1,1,0.005,0.010365853658536586
+GLDS-606,Cr,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.002,0.006538461538461538
+GLDS-606,Cr,mmu00520,Amino sugar and nucleotide sugar metabolism - Mus musculus (house mouse),1,1,0.003,0.008225806451612902
+GLDS-606,Cr,mmu03082,ATP-dependent chromatin remodeling - Mus musculus (house mouse),1,1,0.002,0.006538461538461538
+GLDS-606,Cr,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu04061,Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse),1,1,0.004,0.009444444444444445
+GLDS-606,Cr,mmu04064,NF-kappa B signaling pathway - Mus musculus (house mouse),1,1,0.002,0.006538461538461538
+GLDS-606,Cr,mmu04080,Neuroactive ligand-receptor interaction - Mus musculus (house mouse),1,1,0.006,0.011333333333333332
+GLDS-606,Cr,mmu04110,Cell cycle - Mus musculus (house mouse),1,1,0.003,0.008225806451612902
+GLDS-606,Cr,mmu04144,Endocytosis - Mus musculus (house mouse),1,8,0,0
+GLDS-606,Cr,mmu04146,Peroxisome - Mus musculus (house mouse),1,1,0.006,0.011333333333333332
+GLDS-606,Cr,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0.005,0.010365853658536586
+GLDS-606,Cr,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0.004,0.009444444444444445
+GLDS-606,Cr,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0.004,0.009444444444444445
+GLDS-606,Cr,mmu04380,Osteoclast differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu04390,Hippo signaling pathway - Mus musculus (house mouse),1,1,0.003,0.008225806451612902
+GLDS-606,Cr,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cr,mmu04540,Gap junction - Mus musculus (house mouse),1,1,0.004,0.009444444444444445
+GLDS-606,Cr,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,1,0.004,0.009444444444444445
+GLDS-606,Cr,mmu04613,Neutrophil extracellular trap formation - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cr,mmu04621,NOD-like receptor signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cr,mmu04650,Natural killer cell mediated cytotoxicity - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.003,0.008225806451612902
+GLDS-606,Cr,mmu04940,Type I diabetes mellitus - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cr,mmu04976,Bile secretion - Mus musculus (house mouse),1,1,0.006,0.011333333333333332
+GLDS-606,Cr,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,1,0.007,0.012659574468085107
+GLDS-606,Cr,mmu05012,Parkinson disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu05014,Amyotrophic lateral sclerosis - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Cr,mmu05016,Huntington disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu05020,Prion disease - Mus musculus (house mouse),1,1,0.005,0.010365853658536586
+GLDS-606,Cr,mmu05022,Pathways of neurodegeneration - multiple diseases - Mus musculus (house mouse),1,1,0.003,0.008225806451612902
+GLDS-606,Cr,mmu05034,Alcoholism - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cr,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu05150,Staphylococcus aureus infection - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cr,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,9,0,0
+GLDS-606,Cr,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu05203,Viral carcinogenesis - Mus musculus (house mouse),1,8,0,0
+GLDS-606,Cr,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.005,0.010365853658536586
+GLDS-606,Cr,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,1,0.005,0.010365853658536586
+GLDS-606,Cr,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,1,0.006,0.011333333333333332
+GLDS-606,Cr,mmu05226,Gastric cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cr,mmu05320,Autoimmune thyroid disease - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cr,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cr,mmu05330,Allograft rejection - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cr,mmu05332,Graft-versus-host disease - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cr,mmu05416,Viral myocarditis - Mus musculus (house mouse),1,7,0,0
+GLDS-606,Cu,mmu00040,Pentose and glucuronate interconversions - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu00053,Ascorbate and aldarate metabolism - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.008,0.014166666666666666
+GLDS-606,Cu,mmu00860,Porphyrin metabolism - Mus musculus (house mouse),1,1,0.012,0.02
+GLDS-606,Cu,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cu,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu03060,Protein export - Mus musculus (house mouse),1,1,0.007,0.013222222222222222
+GLDS-606,Cu,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu04061,Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu04080,Neuroactive ligand-receptor interaction - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu04110,Cell cycle - Mus musculus (house mouse),1,1,0.008,0.014166666666666666
+GLDS-606,Cu,mmu04144,Endocytosis - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Cu,mmu04146,Peroxisome - Mus musculus (house mouse),1,1,0.006,0.01186046511627907
+GLDS-606,Cu,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0.009,0.015299999999999998
+GLDS-606,Cu,mmu04390,Hippo signaling pathway - Mus musculus (house mouse),1,1,0.005,0.010625
+GLDS-606,Cu,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu04540,Gap junction - Mus musculus (house mouse),1,1,0.009,0.015299999999999998
+GLDS-606,Cu,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu04613,Neutrophil extracellular trap formation - Mus musculus (house mouse),1,1,0.006,0.01186046511627907
+GLDS-606,Cu,mmu04621,NOD-like receptor signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,1,0.005,0.010625
+GLDS-606,Cu,mmu04650,Natural killer cell mediated cytotoxicity - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.007,0.013222222222222222
+GLDS-606,Cu,mmu04934,Cushing syndrome - Mus musculus (house mouse),1,1,0.008,0.014166666666666666
+GLDS-606,Cu,mmu04940,Type I diabetes mellitus - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu04976,Bile secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05012,Parkinson disease - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05014,Amyotrophic lateral sclerosis - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05016,Huntington disease - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05020,Prion disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05022,Pathways of neurodegeneration - multiple diseases - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05034,Alcoholism - Mus musculus (house mouse),1,1,0.006,0.01186046511627907
+GLDS-606,Cu,mmu05143,African trypanosomiasis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05150,Staphylococcus aureus infection - Mus musculus (house mouse),1,1,0.003,0.006891891891891893
+GLDS-606,Cu,mmu05164,Influenza A - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cu,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05203,Viral carcinogenesis - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Cu,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.005,0.010625
+GLDS-606,Cu,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Cu,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05226,Gastric cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Cu,mmu05320,Autoimmune thyroid disease - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),1,1,0.003,0.006891891891891893
+GLDS-606,Cu,mmu05323,Rheumatoid arthritis - Mus musculus (house mouse),1,1,0.003,0.006891891891891893
+GLDS-606,Cu,mmu05330,Allograft rejection - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05332,Graft-versus-host disease - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Cu,mmu05416,Viral myocarditis - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Fe,mmu00860,Porphyrin metabolism - Mus musculus (house mouse),1,1,0.001,0.02125
+GLDS-606,Fe,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Fe,mmu04350,TGF-beta signaling pathway - Mus musculus (house mouse),1,1,0.001,0.02125
+GLDS-606,Fe,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,1,0.001,0.00425
+GLDS-606,Li,mmu04658,Th1 and Th2 cell differentiation - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu04659,Th17 cell differentiation - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu04672,Intestinal immune network for IgA production - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu04940,Type I diabetes mellitus - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu04976,Bile secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Li,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05150,Staphylococcus aureus infection - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05164,Influenza A - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05226,Gastric cancer - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05310,Asthma - Mus musculus (house mouse),1,1,0.001,0.00425
+GLDS-606,Li,mmu05320,Autoimmune thyroid disease - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05321,Inflammatory bowel disease - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05323,Rheumatoid arthritis - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05330,Allograft rejection - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05332,Graft-versus-host disease - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Li,mmu05416,Viral myocarditis - Mus musculus (house mouse),1,1,0.001,0.00425
+GLDS-606,Ni,mmu00030,Pentose phosphate pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu00040,Pentose and glucuronate interconversions - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu00053,Ascorbate and aldarate metabolism - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.004,0.007083333333333333
+GLDS-606,Ni,mmu00520,Amino sugar and nucleotide sugar metabolism - Mus musculus (house mouse),1,1,0.009,0.012966101694915253
+GLDS-606,Ni,mmu00860,Porphyrin metabolism - Mus musculus (house mouse),1,1,0.004,0.007083333333333333
+GLDS-606,Ni,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Ni,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Ni,mmu04015,Rap1 signaling pathway - Mus musculus (house mouse),1,1,0.004,0.007083333333333333
+GLDS-606,Ni,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Ni,mmu04061,Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu04064,NF-kappa B signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04080,Neuroactive ligand-receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04081,Hormone signaling - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04110,Cell cycle - Mus musculus (house mouse),1,1,0.005,0.008173076923076924
+GLDS-606,Ni,mmu04144,Endocytosis - Mus musculus (house mouse),1,1,0.014,0.019833333333333335
+GLDS-606,Ni,mmu04146,Peroxisome - Mus musculus (house mouse),1,1,0.006,0.009272727272727273
+GLDS-606,Ni,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Ni,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0.006,0.009272727272727273
+GLDS-606,Ni,mmu04380,Osteoclast differentiation - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu04613,Neutrophil extracellular trap formation - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu04621,NOD-like receptor signaling pathway - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Ni,mmu04650,Natural killer cell mediated cytotoxicity - Mus musculus (house mouse),1,1,0.009,0.012966101694915253
+GLDS-606,Ni,mmu04658,Th1 and Th2 cell differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04659,Th17 cell differentiation - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04662,B cell receptor signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04668,TNF signaling pathway - Mus musculus (house mouse),1,1,0.008,0.012142857142857143
+GLDS-606,Ni,mmu04672,Intestinal immune network for IgA production - Mus musculus (house mouse),1,1,0.005,0.008173076923076924
+GLDS-606,Ni,mmu04940,Type I diabetes mellitus - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu04976,Bile secretion - Mus musculus (house mouse),1,1,0.006,0.009272727272727273
+GLDS-606,Ni,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05012,Parkinson disease - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Ni,mmu05014,Amyotrophic lateral sclerosis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05016,Huntington disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05020,Prion disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05022,Pathways of neurodegeneration - multiple diseases - Mus musculus (house mouse),1,1,0.009,0.012966101694915253
+GLDS-606,Ni,mmu05034,Alcoholism - Mus musculus (house mouse),1,1,0.005,0.008173076923076924
+GLDS-606,Ni,mmu05140,Leishmaniasis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05143,African trypanosomiasis - Mus musculus (house mouse),1,1,0.004,0.007083333333333333
+GLDS-606,Ni,mmu05150,Staphylococcus aureus infection - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Ni,mmu05164,Influenza A - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Ni,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Ni,mmu05203,Viral carcinogenesis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.005,0.008173076923076924
+GLDS-606,Ni,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Ni,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Ni,mmu05226,Gastric cancer - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05310,Asthma - Mus musculus (house mouse),1,1,0.003,0.0057954545454545455
+GLDS-606,Ni,mmu05320,Autoimmune thyroid disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05321,Inflammatory bowel disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),1,4,0,0
+GLDS-606,Ni,mmu05323,Rheumatoid arthritis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05330,Allograft rejection - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05332,Graft-versus-host disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Ni,mmu05416,Viral myocarditis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Pb,mmu00100,Steroid biosynthesis - Mus musculus (house mouse),1,1,0.001,0.009444444444444445
+GLDS-606,Pb,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,1,0.001,0.009444444444444445
+GLDS-606,Pb,mmu04061,Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Pb,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0.001,0.009444444444444445
+GLDS-606,Pb,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Pb,mmu04610,Complement and coagulation cascades - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Pb,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Pb,mmu04659,Th17 cell differentiation - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Pb,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Zn,mmu00040,Pentose and glucuronate interconversions - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Zn,mmu00053,Ascorbate and aldarate metabolism - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu00860,Porphyrin metabolism - Mus musculus (house mouse),1,1,0.001,0.004047619047619047
+GLDS-606,Zn,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Zn,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),1,5,0,0
+GLDS-606,Zn,mmu04060,Cytokine-cytokine receptor interaction - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu04061,Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu04110,Cell cycle - Mus musculus (house mouse),1,1,0.002,0.007083333333333333
+GLDS-606,Zn,mmu04144,Endocytosis - Mus musculus (house mouse),1,1,0.001,0.004047619047619047
+GLDS-606,Zn,mmu04146,Peroxisome - Mus musculus (house mouse),1,1,0.002,0.007083333333333333
+GLDS-606,Zn,mmu04151,PI3K-Akt signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Zn,mmu04152,AMPK signaling pathway - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu04310,Wnt signaling pathway - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Zn,mmu04976,Bile secretion - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu05010,Alzheimer disease - Mus musculus (house mouse),1,1,0,0
+GLDS-606,Zn,mmu05012,Parkinson disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu05014,Amyotrophic lateral sclerosis - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu05016,Huntington disease - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu05020,Prion disease - Mus musculus (house mouse),1,1,0.001,0.004047619047619047
+GLDS-606,Zn,mmu05022,Pathways of neurodegeneration - multiple diseases - Mus musculus (house mouse),1,1,0.002,0.007083333333333333
+GLDS-606,Zn,mmu05168,Herpes simplex virus 1 infection - Mus musculus (house mouse),1,1,0.003,0.0102
+GLDS-606,Zn,mmu05203,Viral carcinogenesis - Mus musculus (house mouse),1,1,0.004,0.013076923076923076
+GLDS-606,Zn,mmu05205,Proteoglycans in cancer - Mus musculus (house mouse),1,1,0.001,0.004047619047619047
+GLDS-606,Zn,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),1,3,0,0
+GLDS-606,Zn,mmu05225,Hepatocellular carcinoma - Mus musculus (house mouse),1,2,0,0
+GLDS-606,Zn,mmu05226,Gastric cancer - Mus musculus (house mouse),1,1,0.001,0.004047619047619047
