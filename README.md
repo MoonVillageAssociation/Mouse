@@ -287,7 +287,7 @@ for (metal_file in metal_files) {
     group_by(ID) %>%
     summarise(
       pathway_genes = list(unique(ENTREZID)),
-      n_pathway = length(pathway_genes),
+      n_pathway = length(unique(ENTREZID)),
       .groups = "drop"
     ) %>%
     rowwise() %>%
