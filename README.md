@@ -503,7 +503,7 @@ p_metal <- ggplot(
   geom_tile() +
   scale_fill_gradient(
     low = "#D7D7DA",
-    high = "#006ddb",
+    high = "#252525",
     na.value = "transparent",
     name = expression(-log[10]~FDR)
   ) +
