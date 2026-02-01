@@ -482,7 +482,7 @@ p_nes <- ggplot(
   nes_df,
   aes(x = NES, y = factor(Pathway, levels = pathway_levels))
 ) +
-  geom_col(fill = "darkred") +
+  geom_col(fill = "#920000") +
   labs(
     x = "NES",
     y = NULL,
@@ -502,8 +502,8 @@ p_metal <- ggplot(
 ) +
   geom_tile() +
   scale_fill_gradient(
-    low = "#A7C7E7",
-    high = "#003366",
+    low = "#D7D7DA",
+    high = "#006ddb",
     na.value = "transparent",
     name = expression(-log[10]~FDR)
   ) +
