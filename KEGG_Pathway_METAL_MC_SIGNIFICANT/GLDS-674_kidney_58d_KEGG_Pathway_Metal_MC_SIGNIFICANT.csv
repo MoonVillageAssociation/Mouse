@@ -1,0 +1,50 @@
+GLDS,Metal,ID,Description,n_pathway,observed_k,p_value,padj
+GLDS-674,Ca,mmu04022,cGMP-PKG signaling pathway - Mus musculus (house mouse),163,2,0,0
+GLDS-674,Ca,mmu04072,Phospholipase D signaling pathway - Mus musculus (house mouse),138,2,0,0
+GLDS-674,Ca,mmu04081,Hormone signaling - Mus musculus (house mouse),183,2,0.001,0.022125
+GLDS-674,Ca,mmu04261,Adrenergic signaling in cardiomyocytes - Mus musculus (house mouse),150,2,0.002,0.03933333333333334
+GLDS-674,Ca,mmu04371,Apelin signaling pathway - Mus musculus (house mouse),132,2,0,0
+GLDS-674,Ca,mmu04614,Renin-angiotensin system - Mus musculus (house mouse),33,2,0,0
+GLDS-674,Ca,mmu04925,Aldosterone synthesis and secretion - Mus musculus (house mouse),101,2,0,0
+GLDS-674,Ca,mmu04933,AGE-RAGE signaling pathway in diabetic complications - Mus musculus (house mouse),101,2,0,0
+GLDS-674,Ca,mmu04934,Cushing syndrome - Mus musculus (house mouse),158,2,0,0
+GLDS-674,Cd,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),94,16,0,0
+GLDS-674,Cd,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),80,12,0,0
+GLDS-674,Cd,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),49,8,0,0
+GLDS-674,Cd,mmu00830,Retinol metabolism - Mus musculus (house mouse),90,21,0,0
+GLDS-674,Cd,mmu04726,Serotonergic synapse - Mus musculus (house mouse),125,7,0.001,0.0177
+GLDS-674,Cd,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),121,9,0,0
+GLDS-674,Cd,mmu04976,Bile secretion - Mus musculus (house mouse),94,11,0,0
+GLDS-674,Cd,mmu05144,Malaria - Mus musculus (house mouse),60,6,0.001,0.0177
+GLDS-674,Cd,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),81,12,0,0
+GLDS-674,Cd,mmu05207,Chemical carcinogenesis - receptor activation - Mus musculus (house mouse),198,10,0.001,0.0177
+GLDS-674,Cr,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),80,4,0,0
+GLDS-674,Cr,mmu00830,Retinol metabolism - Mus musculus (house mouse),90,5,0,0
+GLDS-674,Cr,mmu04144,Endocytosis - Mus musculus (house mouse),251,8,0,0
+GLDS-674,Cr,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),160,7,0,0
+GLDS-674,Cr,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),222,8,0,0
+GLDS-674,Cr,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),230,9,0,0
+GLDS-674,Cr,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),190,9,0,0
+GLDS-674,Cr,mmu05170,Human immunodeficiency virus 1 infection - Mus musculus (house mouse),207,8,0,0
+GLDS-674,Cr,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),120,5,0,0
+GLDS-674,Cu,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),94,10,0,0
+GLDS-674,Cu,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),80,5,0,0
+GLDS-674,Cu,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),49,5,0,0
+GLDS-674,Cu,mmu00830,Retinol metabolism - Mus musculus (house mouse),90,10,0,0
+GLDS-674,Cu,mmu04726,Serotonergic synapse - Mus musculus (house mouse),125,7,0,0
+GLDS-674,Cu,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),121,5,0.001,0.025285714285714286
+GLDS-674,Cu,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),81,8,0,0
+GLDS-674,Li,mmu04976,Bile secretion - Mus musculus (house mouse),94,2,0,0
+GLDS-674,Ni,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),80,5,0,0
+GLDS-674,Ni,mmu00830,Retinol metabolism - Mus musculus (house mouse),90,7,0,0
+GLDS-674,Ni,mmu05144,Malaria - Mus musculus (house mouse),60,5,0,0
+GLDS-674,Ni,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),81,5,0,0
+GLDS-674,Ni,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),142,6,0,0
+GLDS-674,Zn,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),94,5,0,0
+GLDS-674,Zn,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),80,4,0,0
+GLDS-674,Zn,mmu00591,Linoleic acid metabolism - Mus musculus (house mouse),49,2,0.002,0.04425
+GLDS-674,Zn,mmu00830,Retinol metabolism - Mus musculus (house mouse),90,6,0,0
+GLDS-674,Zn,mmu04726,Serotonergic synapse - Mus musculus (house mouse),125,3,0,0
+GLDS-674,Zn,mmu04750,Inflammatory mediator regulation of TRP channels - Mus musculus (house mouse),121,3,0.002,0.04425
+GLDS-674,Zn,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),126,3,0,0
+GLDS-674,Zn,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),81,4,0,0

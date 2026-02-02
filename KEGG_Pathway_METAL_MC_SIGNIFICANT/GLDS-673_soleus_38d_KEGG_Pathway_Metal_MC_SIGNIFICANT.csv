@@ -1,0 +1,9 @@
+GLDS,Metal,ID,Description,n_pathway,observed_k,p_value,padj
+GLDS-673,Ca,mmu04020,Calcium signaling pathway - Mus musculus (house mouse),244,2,0.002,0.024571428571428574
+GLDS-673,Ca,mmu04022,cGMP-PKG signaling pathway - Mus musculus (house mouse),163,2,0,0
+GLDS-673,Ca,mmu04080,Neuroactive ligand-receptor interaction - Mus musculus (house mouse),296,2,0.001,0.0172
+GLDS-673,Ca,mmu04261,Adrenergic signaling in cardiomyocytes - Mus musculus (house mouse),153,2,0.002,0.024571428571428574
+GLDS-673,Ca,mmu04270,Vascular smooth muscle contraction - Mus musculus (house mouse),126,2,0,0
+GLDS-673,Ca,mmu04924,Renin secretion - Mus musculus (house mouse),71,2,0,0
+GLDS-673,Ca,mmu04925,Aldosterone synthesis and secretion - Mus musculus (house mouse),99,2,0,0
+GLDS-673,Cr,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),223,9,0,0

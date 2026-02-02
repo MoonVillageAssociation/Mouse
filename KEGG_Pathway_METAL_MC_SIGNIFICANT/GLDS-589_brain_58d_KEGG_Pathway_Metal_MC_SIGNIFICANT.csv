@@ -1,0 +1,40 @@
+GLDS,Metal,ID,Description,n_pathway,observed_k,p_value,padj
+GLDS-589,Al,mmu04612,Antigen processing and presentation - Mus musculus (house mouse),68,2,0.001,0.026333333333333334
+GLDS-589,Al,mmu05162,Measles - Mus musculus (house mouse),127,2,0.001,0.026333333333333334
+GLDS-589,Al,mmu05169,Epstein-Barr virus infection - Mus musculus (house mouse),194,3,0,0
+GLDS-589,Ca,mmu04020,Calcium signaling pathway - Mus musculus (house mouse),244,2,0.002,0.0316
+GLDS-589,Ca,mmu04022,cGMP-PKG signaling pathway - Mus musculus (house mouse),159,2,0,0
+GLDS-589,Ca,mmu04261,Adrenergic signaling in cardiomyocytes - Mus musculus (house mouse),150,2,0,0
+GLDS-589,Ca,mmu04933,AGE-RAGE signaling pathway in diabetic complications - Mus musculus (house mouse),101,2,0,0
+GLDS-589,Ca,mmu05171,Coronavirus disease - COVID-19 - Mus musculus (house mouse),217,2,0,0
+GLDS-589,Cd,mmu00830,Retinol metabolism - Mus musculus (house mouse),48,9,0,0
+GLDS-589,Cd,mmu00980,Metabolism of xenobiotics by cytochrome P450 - Mus musculus (house mouse),52,6,0,0
+GLDS-589,Cd,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),52,5,0.002,0.022571428571428572
+GLDS-589,Cd,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),75,7,0,0
+GLDS-589,Cd,mmu05144,Malaria - Mus musculus (house mouse),51,6,0.001,0.013166666666666667
+GLDS-589,Cd,mmu05169,Epstein-Barr virus infection - Mus musculus (house mouse),194,9,0.001,0.013166666666666667
+GLDS-589,Cd,mmu05416,Viral myocarditis - Mus musculus (house mouse),73,6,0,0
+GLDS-589,Cr,mmu04514,Cell adhesion molecule (CAM) interaction - Mus musculus (house mouse),151,6,0,0
+GLDS-589,Cr,mmu04612,Antigen processing and presentation - Mus musculus (house mouse),68,6,0,0
+GLDS-589,Cr,mmu05163,Human cytomegalovirus infection - Mus musculus (house mouse),216,7,0,0
+GLDS-589,Cr,mmu05166,Human T-cell leukemia virus 1 infection - Mus musculus (house mouse),224,8,0,0
+GLDS-589,Cr,mmu05167,Kaposi sarcoma-associated herpesvirus infection - Mus musculus (house mouse),177,7,0,0
+GLDS-589,Cr,mmu05169,Epstein-Barr virus infection - Mus musculus (house mouse),194,7,0,0
+GLDS-589,Cr,mmu05416,Viral myocarditis - Mus musculus (house mouse),73,6,0,0
+GLDS-589,Cu,mmu00830,Retinol metabolism - Mus musculus (house mouse),48,6,0,0
+GLDS-589,Cu,mmu00980,Metabolism of xenobiotics by cytochrome P450 - Mus musculus (house mouse),52,4,0.001,0.0158
+GLDS-589,Cu,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),52,5,0,0
+GLDS-589,Cu,mmu04740,Olfactory transduction - Mus musculus (house mouse),171,14,0,0
+GLDS-589,Cu,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),47,5,0,0
+GLDS-589,Ni,mmu00830,Retinol metabolism - Mus musculus (house mouse),48,5,0,0
+GLDS-589,Ni,mmu00980,Metabolism of xenobiotics by cytochrome P450 - Mus musculus (house mouse),52,7,0,0
+GLDS-589,Ni,mmu00982,Drug metabolism - cytochrome P450 - Mus musculus (house mouse),52,5,0,0
+GLDS-589,Ni,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),75,4,0,0
+GLDS-589,Ni,mmu04640,Hematopoietic cell lineage - Mus musculus (house mouse),87,4,0.003,0.03385714285714286
+GLDS-589,Ni,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),47,5,0,0
+GLDS-589,Ni,mmu05418,Fluid shear stress and atherosclerosis - Mus musculus (house mouse),138,6,0.001,0.013166666666666667
+GLDS-589,Zn,mmu00830,Retinol metabolism - Mus musculus (house mouse),48,4,0,0
+GLDS-589,Zn,mmu00980,Metabolism of xenobiotics by cytochrome P450 - Mus musculus (house mouse),52,2,0.001,0.0158
+GLDS-589,Zn,mmu00983,Drug metabolism - other enzymes - Mus musculus (house mouse),75,3,0,0
+GLDS-589,Zn,mmu04740,Olfactory transduction - Mus musculus (house mouse),171,4,0,0
+GLDS-589,Zn,mmu05204,Chemical carcinogenesis - DNA adducts - Mus musculus (house mouse),47,3,0,0

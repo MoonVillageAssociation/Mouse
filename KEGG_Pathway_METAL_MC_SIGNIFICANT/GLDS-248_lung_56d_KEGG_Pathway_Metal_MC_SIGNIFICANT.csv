@@ -1,0 +1,30 @@
+GLDS,Metal,ID,Description,n_pathway,observed_k,p_value,padj
+GLDS-248,Ca,mmu04081,Hormone signaling - Mus musculus (house mouse),193,2,0.001,0.022333333333333334
+GLDS-248,Ca,mmu04270,Vascular smooth muscle contraction - Mus musculus (house mouse),137,2,0,0
+GLDS-248,Ca,mmu05415,Diabetic cardiomyopathy - Mus musculus (house mouse),202,2,0.001,0.022333333333333334
+GLDS-248,Cd,mmu00071,Fatty acid degradation - Mus musculus (house mouse),50,6,0.001,0.0134
+GLDS-248,Cd,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),90,16,0,0
+GLDS-248,Cd,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),81,12,0,0
+GLDS-248,Cd,mmu00830,Retinol metabolism - Mus musculus (house mouse),95,22,0,0
+GLDS-248,Cd,mmu03320,PPAR signaling pathway - Mus musculus (house mouse),83,8,0,0
+GLDS-248,Cr,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),81,4,0,0
+GLDS-248,Cr,mmu00830,Retinol metabolism - Mus musculus (house mouse),95,5,0,0
+GLDS-248,Cr,mmu05322,Systemic lupus erythematosus - Mus musculus (house mouse),121,4,0.001,0.022333333333333334
+GLDS-248,Cu,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),90,10,0,0
+GLDS-248,Cu,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),81,5,0,0
+GLDS-248,Cu,mmu00830,Retinol metabolism - Mus musculus (house mouse),95,10,0,0
+GLDS-248,Fe,mmu03320,PPAR signaling pathway - Mus musculus (house mouse),83,2,0,0
+GLDS-248,Ni,mmu00030,Pentose phosphate pathway - Mus musculus (house mouse),32,3,0.002,0.0268
+GLDS-248,Ni,mmu00071,Fatty acid degradation - Mus musculus (house mouse),50,3,0.003,0.0335
+GLDS-248,Ni,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),90,4,0.001,0.01675
+GLDS-248,Ni,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),81,5,0,0
+GLDS-248,Ni,mmu00830,Retinol metabolism - Mus musculus (house mouse),95,7,0,0
+GLDS-248,Ni,mmu03320,PPAR signaling pathway - Mus musculus (house mouse),83,4,0.001,0.01675
+GLDS-248,Zn,mmu00051,Fructose and mannose metabolism - Mus musculus (house mouse),36,2,0.002,0.019142857142857142
+GLDS-248,Zn,mmu00071,Fatty acid degradation - Mus musculus (house mouse),50,3,0,0
+GLDS-248,Zn,mmu00140,Steroid hormone biosynthesis - Mus musculus (house mouse),90,5,0,0
+GLDS-248,Zn,mmu00561,Glycerolipid metabolism - Mus musculus (house mouse),62,2,0.003,0.025125
+GLDS-248,Zn,mmu00590,Arachidonic acid metabolism - Mus musculus (house mouse),81,4,0,0
+GLDS-248,Zn,mmu00830,Retinol metabolism - Mus musculus (house mouse),95,6,0,0
+GLDS-248,Zn,mmu03320,PPAR signaling pathway - Mus musculus (house mouse),83,4,0,0
+GLDS-248,Zn,mmu04936,Alcoholic liver disease - Mus musculus (house mouse),125,3,0.002,0.019142857142857142
