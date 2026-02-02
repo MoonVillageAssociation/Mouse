@@ -382,9 +382,8 @@ pathway_txt <- paste0(
 )
 
 # Output plot
-out_file <- paste0(
-  glds_id, "_", label, "_NES_plus_MetalHeatmap.png"
-)
+out_png <- paste0(glds_id, "_", label, "_NES_plus_MetalHeatmap.png")
+out_pdf <- paste0(glds_id, "_", label, "_NES_plus_MetalHeatmap.pdf")
 ```
 Load data
 ```
@@ -537,13 +536,22 @@ p <- plot_grid(
 p <- ggdraw(p)
 
 ggsave(
-  out_file,
+  out_png,
   p,
   width  = fig_width,
   height = fig_height,
   dpi    = 600,
   bg     = "transparent"
 )
+message("Saved: ", out_png)
 
-message("Saved: ", out_file)
+ggsave(
+  out_pdf,
+  p,
+  width  = fig_width,
+  height = fig_height,
+  bg     = "transparent"
+)
+message("Saved: ", out_pdf)
+
 ```
