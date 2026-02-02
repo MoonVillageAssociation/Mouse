@@ -468,7 +468,7 @@ n_pathways <- length(pathway_levels)
 n_metals   <- length(levels(metal_df$Metal))
 
 cell_h <- 0.17   # inches per pathway
-cell_w <- 0.28   # inches per metal
+cell_w <- 0.30   # inches per metal
 
 fig_height <- max(1.1, n_pathways * cell_h)
 fig_width  <- 5.3 + n_metals * cell_w
