@@ -470,7 +470,7 @@ n_metals   <- length(levels(metal_df$Metal))
 cell_h <- 0.17   # inches per pathway
 cell_w <- 0.30   # inches per metal
 
-fig_height <- max(1.1, n_pathways * cell_h)
+fig_height <- n_pathways * cell_h * 1.05
 fig_width  <- 5.3 + n_metals * cell_w
 ```
 
@@ -483,6 +483,7 @@ p_nes <- ggplot(
   aes(x = NES, y = factor(Pathway, levels = pathway_levels))
 ) +
   geom_col(fill = "#920000") +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
   labs(
     x = "NES",
     y = NULL,
@@ -530,7 +531,7 @@ p <- plot_grid(
   nrow = 1,
   align = "h",
   axis = "tb",
-  rel_widths = c(5.3, n_metals * cell_w)
+  rel_widths = c(5.3, ifelse(n_metals == 1, 1.0, n_metals * cell_w))
 )
 
 p <- ggdraw(p)
